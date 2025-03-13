@@ -1,6 +1,6 @@
 # Octopus maturity and age
 
-This repository provides the data and script used in the paper for "Biology of a re-emerging population of octopus from north-eastern Atlantic" by Le Bourg et al. (2025).
+This repository provides the data and scripts used in the paper for "Biology of a re-emerging population of octopus from north-eastern Atlantic" by Le Bourg et al. (2025).
 
 It contains three tables: 
 
