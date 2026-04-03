@@ -74,7 +74,7 @@ PlotWeight <-  ggplot(DataPlotWeight,aes(x = x, y = fitted, linetype = sex))+
   theme_classic(base_size=17.5)+
   theme(panel.border=element_rect(fill=NA),legend.key.width = unit(3, "line"),axis.title = element_text(face="bold"),axis.text = element_text(face="bold"))+
   scale_linetype_manual(values = c(scales::linetype_pal()(2)),labels=c("Females (n = 80)", "Males (n = 84)"),name="")+
-  labs(x = "Body weight (kg)", y = "Frequency (%)")
+  labs(x = "Body weight (kg)", y = "Proportion mature (%)")
 
 # Let's assess the ventral mantle lengths at maturity.
 # For females.
@@ -115,7 +115,7 @@ PlotLength <-  ggplot(DataPlotLength,aes(x = x, y = fitted, linetype = sex))+
   theme_classic(base_size=17.5)+
   theme(panel.border=element_rect(fill=NA),legend.key.width = unit(3, "line"),axis.title = element_text(face="bold"),axis.text = element_text(face="bold"))+
   scale_linetype_manual(values = c(scales::linetype_pal()(2)),labels=c("Females (n = 80)", "Males (n = 84)"),name="")+
-  labs(x = "Ventral mantle length (cm)", y = "Frequency (%)")
+  labs(x = "Ventral mantle length (cm)", y = "Proportion mature (%)")
 
 
 # Let's assess the ventral mantle lengths at maturity.
@@ -159,7 +159,7 @@ PlotAge <-  ggplot(DataPlotAge,aes(x = x, y = fitted, linetype = sex))+
   theme_classic(base_size=17.5)+
   theme(panel.border=element_rect(fill=NA),legend.key.width = unit(3, "line"),axis.title = element_text(face="bold"),axis.text = element_text(face="bold"))+
   scale_linetype_manual(values = c(scales::linetype_pal()(2)),labels=c("Females (n = 80)", "Males (n = 84)"),name="")+
-  labs(x = "Number of increments", y = "Frequency (%)")
+  labs(x = "Number of increments", y = "Proportion mature (%)")
 
 # Let's put together the three plots.
 dev.new(width=10.6, height=10, unit="cm")
